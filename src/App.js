@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { GlobalStyle } from './style';
+import { IconfontGlobalStyle } from './statics/iconfont/iconfont'
 import Header from './common/header/index'
 
 class App extends Component {
@@ -7,6 +8,7 @@ class App extends Component {
     return (
       <>
         <GlobalStyle />
+        <IconfontGlobalStyle/>
         <Header/>
       </>
     );
